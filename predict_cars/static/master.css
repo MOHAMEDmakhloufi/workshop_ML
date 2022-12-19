@@ -1,0 +1,66 @@
+html{
+    max-height: 100vh;
+    overflow: hidden;
+}
+body{
+    margin: 0;
+    height: 100vh;
+
+    background: rgb(240,240,240);
+    background: linear-gradient(45deg,  rgba(138,138,138,1) 15%, rgba(240,240,240,1) 49%);
+    position: relative;
+    font-family: 'Cairo', sans-serif !important;
+}
+h1{
+    font-size: 80px !important;
+    margin: 60px 50px 0 50px  !important;
+    color: rgb(134, 126, 126);
+
+}
+.text {
+    background-color: #94d5d570;
+    backdrop-filter: blur(10px) saturate(70%);
+    border-radius: 20px;
+    z-index: -1;
+    margin-top: 60px;
+    max-width: 350px;
+}
+.result-search{
+    color: rgb(241, 7, 7);
+     font-weight: bold;
+}
+img.scale-car{
+    position: fixed;
+    width: 70%;
+
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+    object-fit: cover;
+}
+
+form{
+
+    position: fixed;
+    width: 35%;
+    left: 42%;
+    top: 72%;
+    transform: translateX(-50%);
+}
+button{
+
+    position: fixed;
+
+    right: -35%;
+    top: 0%;
+    transform: translateX(-50%);
+    font-weight: bold;
+}
+.row .col{
+    align-items: center;
+}
+.row label{
+    font-weight: bold;
+    margin-left: 5px;
+    color: white;
+}
